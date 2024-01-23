@@ -112,7 +112,7 @@ function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById('map'), {
     zoom: 7,
-    center: {lat: 44.5588, lng: -72.5778},
+    center: {lat: 52.632469, lng: -1.689423},
     styles: mapStyle,
   });
 
@@ -129,7 +129,7 @@ function initMap() {
     };
   });
 
-  const apiKey = AIzaSyCQrSTcxtaWPHu_YNjstdnwhRr4S68nrnA;
+  const apiKey = 'YOUR_API_KEY';
   const infoWindow = new google.maps.InfoWindow();
 
   // Show the information for a store when its marker is clicked.

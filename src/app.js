@@ -129,7 +129,7 @@ function initMap() {
     };
   });
 
-  const apiKey = process.env.API_KEY;
+  const apiKey = AIzaSyCQrSTcxtaWPHu_YNjstdnwhRr4S68nrnA;
   const infoWindow = new google.maps.InfoWindow();
 
   // Show the information for a store when its marker is clicked.
